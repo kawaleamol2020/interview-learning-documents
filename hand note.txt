@@ -1,0 +1,164 @@
+Restful service
+
+use noun in resouce uri instead of verb
+exception should be handled and standard error should be sent as response to client
+security should be provided to rest endponts.
+should not return the text as responh
+http status code should be sent in response
+filter,pagination and sorting
+maintain versioning for api
+documentation should be mainted for rest api
+
+Exception handling
+
+clean or release the resource using try finally
+don't throw and log at same time
+runtime exception should not be handled like indexoutof
+don't ignore the exception in catch block
+handle or throw specific exception 
+most specific exception should be handled first
+checked exception should be either throws or handle in method
+don't consume exception but just wrap it
+
+Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of loosely coupled services
+
+eureka server / discovery server for registering the mocroservice
+discovery client to develop the microservice
+gateway server or zuul proxy server for routing 
+hystrix server for fallback response
+Sleuth and zipkin for maintaing centerlised log
+
+MicroService - Advantages
+
+Easier to Build and Maintain Apps
+Improved productivity and speed
+Flexibility in using technology
+Loosely Coupled
+Independently deployable
+Organized around business capabilities
+Owned by small team
+
+Microservices - Drawback
+-Testing
+-Data Island
+-Logging and maintaining
+-Dependency Management
+-More services equals more resources
+
+
+Docker
+
+docker is container management service which allow to package your application and it's related dependency as a container 
+which can be deployed or run on anywhere regardless of environment such like dev, qa and production
+docker has ability to reduce the size of development by providing a smaller footprint of operating system via container.
+docker container are pretty lighweight, they are very easily to scalable.
+
+
+Java8
+
+lambda expression
+functional interface
+interface with default method and static method
+repeatable annotation
+stream
+comparator inhacement
+method argument reflection
+nashron javascript engine enhacement
+date and time api changes
+optional
+Base64 encoding and decoding
+Collection API enhacement
+CompletableFuture
+
+
+Design Patterns
+
+Singleton
+Factory
+AbstractFactory
+
+Facade
+Decorator
+MVC
+
+Stratergy
+Observer
+
+
+Interview Questions
+
+is-a relationship and has-a relationship 
+agreegation and composition
+
+
+@RibbonClient for more than two client
+circuit swtiching / circuit break in microservice
+
+
+predicate test
+consumer accept
+supplier get
+function apply
+
+
+Application improvement in java application
+
+right use of collection 
+use stringbuilder or stringbuffer instead of string concatination
+caching
+connection pooling
+batch statement
+utilization of thread and destorying it
+try to make variable, class, method final whenever possible
+Average response time
+Run load test
+monitoring application
+avoid recursion
+
+https://bezkoder.com/spring-boot-jwt-authentication/
+
+SELECT last_name, employee_id, manager_id, LEVEL
+      FROM employees
+      START WITH employee_id = 100
+      CONNECT BY PRIOR employee_id = manager_id
+      ORDER SIBLINGS BY last_name;
+
+100 continue
+101 switching protocol
+102 processing
+
+200 ok
+201 created
+202 accepted
+203 non authoritative information
+204 no content
+205 reset content
+206 partial content
+207 multi status
+208 already reported
+
+300 multiple choice
+301 move permanently
+302 found
+303 see other
+304 not modified
+305 use proxy
+
+400 bad request
+401 unauthorized
+402 payment required
+403 forbidden
+404 not found
+405 method not allowed
+406 not accepted 
+407 proxy authentication required
+408 request timeout
+409 conflict 
+410 gone
+
+500 internal server error
+501 not implemented
+502 bad gateway
+503 service unavailable
+          
+505 http version not supported

@@ -1,0 +1,262 @@
+Questions
+---------
+1. Java 8 features
+2. What is the use of stream api? Advantages of stream api over for loop method in collections?
+3. Classes that are available in collection
+4. When to use linked list and array list
+5. Can we store objects like student or employee class in hashmap and what are the rules to do that?
+6. Immutable class
+7. Design patterns like Singleton, prototype, abstract factory
+8. What does @springbootapplication do?
+   Which method will get called on start of spring boot application?
+9. How does @enableautoconfiguration works?
+10. Have you worked on any caching frameworks
+11. How to connect to database in spring boot and what are the changes and dependencies need to be done for that
+12. Profiles in spring boot and what are the ways to have the properties and how to call active profile
+13. How to connect to web based applications?
+14. What is a microservice? How to register the small services? Do we need to create each service as a separate spring boot application
+15. Eureka server and client configuration details
+16. Have u worked on any testing frameworks like mockito with junit
+17. How to create immutable class
+18. Flatmap in stream api
+19. Which map to use in multithreading environment?
+20. What are the ways to create Singleton instance?
+21. Autocloseable interface. How it works internally?
+22. Fail fast and fail safe collection? Which will throw exception? Examples for fail fast and fail safe collection
+23. How to implement queue using linked list?
+24. How to implement tree datastructure?
+25. Volatile keyword in Java
+26. Synchronization and how to achieve that?
+27. Synchronized vs volatile keyword difference
+28. How to achieve asynchronization in Java?
+29. Executor service and future
+30. How to copy the collection in Java?
+31. Deep copy vs shallow copy
+32. When to go for mockito?
+33. How to inject mock objects?
+34. @spy in mockito
+35. Functional interface. If parent class has one abstract method and the child class has one abstract method. Does the child class is functional interface?examples of functional interface in Java
+36. Object class
+37. Predicate
+38. Consumer. Example of consumer in stream api
+39. How to find the top five maximum values from list using stream api provided the list has 10 values.
+40. Serialization and deserialization and how to achieve it?
+41. Comparator and comparable interface
+42.Transient in serialization. Can we serialize static variables.
+43. Arraylist vs linked list vs vector. When to use each of these?
+44. Have you worked on any other language apart from java?
+45. Why Java 8 is called functional  programming
+46. What is functional programming and advantages of it?
+47. What is the advantage of streams
+48. Result of SOP(collectionObj.stream())
+49. What are all intermediate operations and terminal operations in stream
+50. How will you sort using stream
+51. How to get top 10 highly paid employees in the list of 1000 employees
+52. What is the strategy pattern
+53. What is the Bridge pattern
+54. Explain about the Adapter pattern
+55. Can we declare int array as volatile?
+56. What is the functional interface and few examples
+57. Class A is functional interface, Class B extends  A, How could be Class B can be functional interface
+58. What are all the 4 types of functional interface
+59. What is Predicate?
+60. What is the Consumer
+61. What is Function in Java 8
+62. Have you worked on any multithreaded programming framework
+63. What is the future?
+64. How is your application deployed?
+65. How CICD tool is connected to Git
+66. Internal & external iterator in java 8
+67. how to handle single sorting and multiple sorting by using comparable & comparator?
+68. How to write test cases for private method in junit/mockito
+69. How to write test cases for static method in junit/mockito
+70. how to create jenkin job to make autonomous build (commands to create it)
+71. Optional in java? why is it necessary?
+72. what kind of value stored in optional? when to use it?
+73. callable and runnable?
+74. return type of callable? why do we use it?
+75. How to get random values by streaming?
+76. how to achieve parallel and sequential operation in java streaming
+77. Does hashmap work in multithreaded environment? If yes how/ if no why/how?
+78. ConcurrentHashMap? how it internally works?
+79. How CopyOnWriteArrayList/CopyOnWriteArraySet internally works?
+80. Blocking queue?
+ 
+1. Java 8 Stream Api: Find top 10 employees from a list of 1000 employees who are having salary > 30000
+2. How did you handled exception in your spring boot application?
+3. Checked exception , unchecked exception
+3. How would you write a hello world spring boot application ?
+4. What are the new features in java 8 ?
+5. How did you deploy your spring boot application (CI/CD)?
+6. Have you used multi-threading in your application ? How ?
+7. What are the best practices did you follow when writing
+   multi-threading application ?
+8. Asked use cases uning java 8 stream Api - filter, map, sorted, foreach, etc
+9. What are the Functional interfaces available in java 8 ?
+10. What is databinding in Angular ?
+11. What is component in Angular ?
+12. Why did you use Custom Thread Pool for CompletableFuture in your application ?
+13. What is the difference between supplyAsync and runAsync ?
+14. Difference between RestController and Controller ?
+15. Did you use aggregation in MongoDB ?
+16. What is singleton class ? How will you create a singleton class in multithreaded environment.
+17. Explain how did you work in Agile methodology ?
+18. How did you fix performance issues that you faced in your application ?
+19. What tool did you use to monitor jvm based application performance ?
+20. what are the differnce between margin and padding ?
+21. How would you write a responsive web page ?
+22. I want a div always to the right-bottom of a web page ? how would you do that ?
+23. What is responsiveness of a webpage ? how to write responsive page?
+24. How would you combine result of three different threads and do some further operation with the result?
+25. Do you know writing script ? Was asking about writing script for jenkins pileline for CI/CD deloyment
+26. Asked some analytical question in between like - you have three bucket of capacity 10, 5, 4 litres respectively.
+You need to fill upto 7 litre in the 10 litre bucket using 5 litre and 4 litre size buckets. 
+27. Brief about yourself.
+28. How do you follow the technology trends ?
+29. What are the latest things did you learn recently ?
+30. We have vastly experienced (17-18 years of experienced) java experts in client-side.
+    You have to work with them directly and independently.
+31. Why did you use custom ThreadPoll though CompletableFuture provides inbuilt executor ?
+32. What are the database did you work on ?
+33. what do you mean by clean code ? How did you follow in your application ?
+34. Cross questions after telling new features in Java 8.
+35. There is a global static arraylist in a class. Does it have any impact in multithreaded environment ?
+36. What are the precautions do you follow to prevent memory leaks in your application ?
+ 
+ 
+1> what is the disadvantages of singleton pattern ?
+2> Why we should use spring cloud ?
+3> Spring cloud concepts - Eureka, Zuul, Zookeeper, Hystrix
+4> What is microservices ?
+5> what is race condition ? how to resolve that ?
+6> CompletableFuture - thencompose method with use case
+7> How to create an immutable class ?
+8> How did you follow agile scrum methodology in your project ?
+     Basically asked - different calls/ meetings and terminologies in agile.
+9> Difference between collection and stream
+10> Give one instance where you had made contribution outside your work in the team
+11> what keep you motivated and keep going ?
+12> why do we use spring boot ?
+13> what is actuator ?
+14> How did you deploy your microservices ? Is it in cloud / dedicated server
+15> How did you take care for the performance of your application ?
+16> Which front end technologies have you worked on ?
+ 
+ 
+4/20
+ 
+1) java 8 features
+2) Internal working mechanisum of Autocloseable interface.
+3) What is immutable? can we create userdefined immutable object?
+4) Explain about volatile key word
+5) What is stack?
+6) Comparable and Comparator interface
+7) Producer and Consumer problem
+8) Internal working mechanisum of Generics
+9) How to create Stack? what are the methods availble in stack
+10) Difference b/w map and flatmap?
+11) Design patterns (creational)
+12) How substring method works internally?
+13) What is hashcode and equals method? how hashcode method works internally?
+14) How the Bridge Design pattern works internally?
+15) What is the return type of filter method?
+16) Method Reference in java
+17) Can we create own generics class? if yes how? / if no why?
+18) Dead lock condition
+19) Brief about yourself.
+20) Checked exceptions
+21) Can we use our custom object as a key of map? if yes, is there any thing we have to do?
+22) have you worked on multithreding?
+23) Stream api
+24) Explain about Optional Class and how it works?
+25) how sorted method workes internally?
+26) Predifined functional interfaces , logic for find list of employes where employee salaray > 5000 using stream api
+27) What is configuration Interface in hibernate? what is the use of this interface?
+28) what is the role of hbm.xml and is it mandatory to mention the xml file name as hbm.xml?
+29) Fetch types in hibernate
+30) what is Spring ioc and how it will works?
+31) Dependency Injection
+32) what is Autowiring? how we can achieve in spring?
+33) Modules of Spring
+34) Explain about Spring AOP
+35) Have you worked on spring transactions?
+36) Some cross questions on Spring transactions
+37) How to create a springboot application?
+38) why we use microservice architechture and explain about architecture
+39) why we register individual microservices in Eureka?
+40) Object class
+41) Behaviour of String object
+42) If we are comparing String objects, is it mandatory to override equals and hashcode methods to compare the objects
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Angular
+ 
+ 
+ 
+Angular:
+1) What are pros of angular framework and why it should be use ?
+2) How data is shared between the components?
+3) What is difference between component and directives?
+4) How to write your own directive?
+5) What is lazy loading and how it is achived ?
+6) What are the configuration files are created when we create angular app ?
+7) How to write our own pipe in angular ?
+8) How to create angular service?
+9) What are the different ways to inject the angualar service ?
+10) Explain lifecyce of angular component.
+ 
+Java:
+1) What is Spring boot basics , why it is used?
+2) What are the minimum dependencies needed to create spring boot app?
+3) What is dependency injection?
+5) How to connect the database ?
+6) What is Spring boot auto configuration?
+6) How to write REST service in spring boot.?
+7) What are different method types in REST service (i.e POST,GET, etc).
+8) Difference between array list and linked list and it's use cases.
+9) Different ways to remove 1 from the following array list (1,2,3,1,2,3).
+10) Difference between POST,PUT and UPDATE.
+11) Explain spring microservice architecture.
+ 
+ 
+Angular:
+1) What is the angularjs and Angular ?
+2) What is use of SinglePageApplication?
+3) Diffrence between Framework and Library?
+4) How to share the data between two components?
+5) Difference between Promise and Observable?
+6) RXJS?
+7) What are the subjects?
+ 
+Java:
+1) Hashset implementation in Java?
+2) Spring Security?
+3) How to write REST service in spring boot?
+4) Richardson Maturity Model in RESTful Web Services?
+5) Micro Services?
+6) How do you protect Restful service cannot access by Anonymous user?
+ 
+
+
+java8 features
+comparable vs comparator
+runtime exception. can we handle runtime exception
+throw & throws difference
+try without finally possible
+String s = new String("Abc"); how many object it will create in java
+== and equals method difference
+method overloadding rules
+
+Spring boot features
+Actuator
+are all endpoint of actuator are by default enabled. how security managed for it.
+how to add jboss server as default in spring boot
+agile ceremony
+type of encryption 
+
+ 
